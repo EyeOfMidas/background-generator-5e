@@ -1,0 +1,38 @@
+<head>
+	<style type="text/css">
+		html {
+			font-size: 16px;
+		}
+		.background {
+			font-weight: 800;
+			font-size: 24px;
+		}
+
+		.background::before {
+			font-weight: normal;
+			font-size: 18px;
+			content: "Background: "
+		}
+		.trait::before{ 
+			font-size: 18px;
+			content: "Personality Trait: ";
+		}
+
+		.ideal::before{ 
+			font-size: 18px;
+			content: "Ideal: ";
+		}
+		.bond::before{ 
+			font-size: 18px;
+			content: "Bond: ";
+		}
+		.flaw::before{ 
+			font-size: 18px;
+			content: "Flaw: ";
+		}
+	</style>
+</head>
+<body>
+<button id="next">Next</button>
+<script src="./generator.js"></script>
+</body>
