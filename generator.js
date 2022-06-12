@@ -233,6 +233,7 @@ document.addEventListener("DOMContentLoaded", () => {
 function generatePersonality() {
   let personalityContainer = document.createElement("div")
   personalityContainer.id = `personality-${personalityIndex}`
+  personalityContainer.className = "personality"
   for(let key in personalities) {
     let propertyContainer = document.createElement("div")
     propertyContainer.className = key
